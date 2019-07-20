@@ -1,4 +1,4 @@
-# asdf-kubeval
+# asdf-kubectl-bindrole
 
 [![Build Status](https://travis-ci.org/looztra/asdf-kubectl-bindrole.svg?branch=master)](https://travis-ci.org/looztra/asdf-kubectl-bindrole)
 

@@ -66,9 +66,9 @@ get_download_url() {
   filename="$(get_filename "$version" "$platform" "$binary_name")"
 
   # https://github.com/Ladicle/kubectl-bindrole/releases/download/v1.1.0/kubectl-bindrole_linux-amd64.tar.gz
-  echo "https://github.com/Ladicle/kubectl-bindrole/releases/download/${version}/${filename}"
+  echo "https://github.com/Ladicle/kubectl-rolesum/releases/download/${version}/${filename}"
 }
 
 tmp_download_dir="$(mktemp -d -t 'asdf_XXXXXXXX')"
 trap 'rm -rf "${tmp_download_dir}"' EXIT
-install_tool "$ASDF_INSTALL_TYPE" "$ASDF_INSTALL_VERSION" "$ASDF_INSTALL_PATH" "$tmp_download_dir" kubectl-bindrole
+install_tool "$ASDF_INSTALL_TYPE" "$ASDF_INSTALL_VERSION" "$ASDF_INSTALL_PATH" "$tmp_download_dir" kubectl-rolesum

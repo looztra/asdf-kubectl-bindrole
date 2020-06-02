@@ -1,6 +1,6 @@
 language: c
 env:
-  - TOOL_NAME=kubectl-bindrole TOOL_VERSION=v1.1.0 TOOL_TEST_COMMAND='kubectl-bindrole --version'
+  - TOOL_NAME=kubectl-bindrole TOOL_VERSION=v1.4.0 TOOL_TEST_COMMAND='kubectl-rolesum --version'
 before_script:
   - git clone https://github.com/asdf-vm/asdf.git
   - . asdf/asdf.sh
